@@ -18,8 +18,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_QWERTY] = {
-  {KC_GRV,  KC_Q},
-  {KC_LCTL, KC_A}
+  {KC_A, KC_S},
+  {KC_D, KC_F}
 }
 
 };

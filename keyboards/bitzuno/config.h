@@ -7,8 +7,8 @@
 #define VENDOR_ID       0xFFFD
 #define PRODUCT_ID      0x0001
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    Stacy
-#define PRODUCT         Stacy
+#define MANUFACTURER    Bitzuno
+#define PRODUCT         Bitzuno-1.1
 #define DESCRIPTION     Keyboard
 
 /* key matrix size */
@@ -20,7 +20,12 @@
 #define MATRIX_COL_PINS { F4, F5 }
 #define UNUSED_PINS
 
+
+/* Backlight */
+#define BACKLIGHT_PIN B7
+#define BACKLIGHT_LEVELS 3
+
 /* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION ROW2COL
+#define DIODE_DIRECTION COL2ROW
 
 #endif
